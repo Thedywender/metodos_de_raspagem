@@ -23,7 +23,8 @@
 #         total_result["description"] = total_result["description"][
 #             : -len(suffix)
 #         ]
-#     total_result["capa"] = url + soup.select_one("#product_gallery img")["src"]
+#     total_result["capa"] =
+# url + soup.select_one("#product_gallery img")["src"]
 
 #     return total_result
 
